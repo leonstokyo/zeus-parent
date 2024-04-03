@@ -18,6 +18,7 @@
         <spring-cloud.version>2022.0.5</spring-cloud.version>
         <spring-cloud-alibaba.version>2022.0.0.0</spring-cloud-alibaba.version>
         <mysql.version>8.0.33</mysql.version>
+        <postgre.version>42.7.2</postgre.version>
     </properties>
 
     <dependencyManagement>
@@ -55,6 +56,15 @@
                 <artifactId>mysql-connector-java</artifactId>
                 <version>${mysql.version}</version>
             </dependency>
+
+            <!-- PostgreSQL -->
+            <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+            <dependency>
+                <groupId>org.postgresql</groupId>
+                <artifactId>postgresql</artifactId>
+                <version>${postgre.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
