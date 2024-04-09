@@ -88,10 +88,10 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version> <!-- 版本根据需要进行调整 -->
+                <version>3.13.0</version> <!-- 版本根据需要进行调整 -->
                 <configuration>
-                    <source>${java.version}}</source> <!-- 指定使用的 Java 版本 -->
-                    <target>${java.version}}</target> <!-- 指定编译目标 Java 版本 -->
+                    <source>${java.version}</source> <!-- 指定使用的 Java 版本 -->
+                    <target>${java.version}</target> <!-- 指定编译目标 Java 版本 -->
                 </configuration>
             </plugin>
         </plugins>
